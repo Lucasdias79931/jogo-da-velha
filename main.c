@@ -128,7 +128,7 @@ int main(){
                 printGame(game);
                 
                 finalizar();
-                if(end != 'S' && end != 's'){
+                if(end == 'S' || end == 's'){
                     initializeGame();
                 }else{
                     break;
@@ -139,7 +139,7 @@ int main(){
                 printGame(game);
                 
                 finalizar();
-                if(end != 'S' && end != 's'){
+                if(end == 'S' || end == 's'){
                     initializeGame();
                 }else{
                     break;
@@ -154,7 +154,7 @@ int main(){
             printf("\n\t\t\t\t\t\tVelha!");
             printGame(game);
             finalizar();
-            if(end != 'S' && end != 's'){
+            if(end == 'S' || end == 's'){
                 initializeGame();
             }else{
                 break;
